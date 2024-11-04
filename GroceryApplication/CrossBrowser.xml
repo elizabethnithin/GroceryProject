@@ -1,0 +1,24 @@
+<suite name="GroceryApplication">
+	<test name="chromeTest">
+			<listeners>
+			<listener class-name="utilities.ExtenetReport" />
+			<listener class-name="utilities.RetryListener" />
+		</listeners>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="testCases.LoginPageTest"></class>
+			<class name="testCases.BaseClass"></class>
+		</classes>
+	</test>
+	<test name="firefoxTest">
+			<listeners>
+			<listener class-name="utilities.ExtenetReport" />
+			<listener class-name="utilities.RetryListener" />
+		</listeners>
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="testCases.LoginPageTest"></class>
+			<class name="testCases.BaseClass"></class>
+		</classes>
+	</test>
+</suite>

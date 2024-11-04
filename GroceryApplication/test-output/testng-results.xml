@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-04T00:50:34 GST" name="GroceryApplication" finished-at="2024-11-04T00:50:51 GST" duration-ms="16698">
+    <groups>
+    </groups>
+    <test started-at="2024-11-04T00:50:34 GST" name="chromeTest" finished-at="2024-11-04T00:50:51 GST" duration-ms="16698">
+      <class name="testCases.ManageContactTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ManageContactTest@402bba4f]" started-at="2024-11-04T00:50:35 GST" name="beforeMethod" finished-at="2024-11-04T00:50:39 GST" duration-ms="4180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="contactupdate()[pri:0, instance:testCases.ManageContactTest@402bba4f]" started-at="2024-11-04T00:50:39 GST" name="contactupdate" finished-at="2024-11-04T00:50:43 GST" duration-ms="3786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactupdate -->
+        <test-method is-config="true" signature="afterMethode(org.testng.ITestResult)[pri:0, instance:testCases.ManageContactTest@402bba4f]" started-at="2024-11-04T00:50:43 GST" name="afterMethode" finished-at="2024-11-04T00:50:43 GST" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactupdate status=SUCCESS method=ManageContactTest.contactupdate()[pri:0, instance:testCases.ManageContactTest@402bba4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethode -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testCases.ManageContactTest@402bba4f]" started-at="2024-11-04T00:50:43 GST" name="beforeMethod" finished-at="2024-11-04T00:50:47 GST" duration-ms="3174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="resetbutton()[pri:0, instance:testCases.ManageContactTest@402bba4f]" started-at="2024-11-04T00:50:47 GST" name="resetbutton" finished-at="2024-11-04T00:50:51 GST" duration-ms="4309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetbutton -->
+        <test-method is-config="true" signature="afterMethode(org.testng.ITestResult)[pri:0, instance:testCases.ManageContactTest@402bba4f]" started-at="2024-11-04T00:50:51 GST" name="afterMethode" finished-at="2024-11-04T00:50:51 GST" duration-ms="329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=resetbutton status=SUCCESS method=ManageContactTest.resetbutton()[pri:0, instance:testCases.ManageContactTest@402bba4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethode -->
+      </class> <!-- testCases.ManageContactTest -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- GroceryApplication -->
+</testng-results>
