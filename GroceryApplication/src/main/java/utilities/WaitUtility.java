@@ -39,5 +39,6 @@ public void waitForWebElementtobeVisible(WebDriver driver,WebElement element) {
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	wait.until(ExpectedConditions.elementToBeClickable(element)); //explicit wait
 }
+
  
 }

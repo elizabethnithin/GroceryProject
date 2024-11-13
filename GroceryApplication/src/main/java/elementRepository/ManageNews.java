@@ -107,6 +107,7 @@ public class ManageNews {
 					value = false;
 				}
 
+				
 			}
 			return value;
 	 }

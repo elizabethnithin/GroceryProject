@@ -22,6 +22,7 @@ public class LoginPage {
 		}
 	
 	
+	
 	 //Without page factory 
      //By UserNameField=By.name("UserName"); 
 	 //WebElement element =driver.findElement("UserNameField").click 

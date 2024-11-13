@@ -43,6 +43,7 @@ public class ExtenetReport implements ITestListener {
 		sparkReporter.config().setReportName("Report Summary");
 		sparkReporter.config().setTheme(Theme.STANDARD);
 	}	
+	
 
 	public void onTestSuccess(ITestResult result) {
 		test = reports.createTest(result.getName());

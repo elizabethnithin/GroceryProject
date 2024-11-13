@@ -7,3 +7,4 @@ public class Constant {
 	public static final String mc_ContactDetailsUpdatedSuccessfullyMessage="Contact details updated successfully";
 	public static final String mn_newsAddedSuccessfullyMessage="News added successfully";
 }
+

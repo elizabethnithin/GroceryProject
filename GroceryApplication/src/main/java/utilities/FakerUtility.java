@@ -9,6 +9,7 @@ public class FakerUtility {
     public  String generateName() {
         return faker.name().fullName(); // Generates a full name (e.g., John Doe)
     }
+    
 
     // Method to generate a fake address
     public  String generateAddress() {

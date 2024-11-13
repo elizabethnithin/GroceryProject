@@ -61,6 +61,7 @@ public class ManageContact {
 		address.clear();
 		address.sendKeys("test address");
 		
+		
 		deliveryTime.clear();
 		deliveryTime.sendKeys("30 minutes");
 	
