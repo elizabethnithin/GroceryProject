@@ -18,7 +18,8 @@ public class LoginPageTest extends BaseClass {
   public void verifyLoginWithCredentials() throws IOException { 
 	  lp= new LoginPage(driver);
 	  //hp= new HomePage(driver);
-	  hp=lp.loginWithValidCredentials("admin","admin"); //chaining of test cases
+	  //hp=lp.loginWithValidCredentials("admin","admin"); 
+	  hp=lp.loginWithValidCredentials(excelRead(1,0),excelRead(1,1));
 	  String actual=hp.readHeading();
 	  String expected="7rmart supermarket";
 	  Assert.assertEquals(actual, expected,Constant.lp_verifyLoginWithCredentials); // compares actual and expected results

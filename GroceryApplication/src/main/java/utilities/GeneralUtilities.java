@@ -42,6 +42,7 @@ public class GeneralUtilities {
 	{
 		String backgroundColor=element.getCssValue("background-color");
 		System.out.println(backgroundColor);
+		
 		String attributeType=element.getAttribute("class");
 		String attributeTagName =element.getTagName();
 		System.out.println(attributeType);

@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,8 +21,7 @@
      -->
   </head>
 
-  <body>
-    <div class="top-banner-root">
+  <body>    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
@@ -51,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-GroceryApplication" class="navigator-link ">
-                    <span>C:\Users\NITHIN\eclipse-workspace\GroceryApplication\ProjectRun.xml</span>
+                    <span>C:\Users\NITHIN\git\GroceryProject\GroceryApplication\ProjectRun.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,12 +103,12 @@
                     <div class="method-list-content passed suite-GroceryApplication">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GroceryApplication" title="testCases.ManageContactTest" class="method navigator-link" hash-for-method="contactupdate">contactupdate</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-GroceryApplication" title="testCases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginWithCredentials">verifyLoginWithCredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-GroceryApplication" title="testCases.ManageContactTest" class="method navigator-link" hash-for-method="resetbutton">resetbutton</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-GroceryApplication" title="testCases.LoginPageTest" class="method navigator-link" hash-for-method="verifyLoginWithInValidcredentials">verifyLoginWithInValidcredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-GroceryApplication -->
@@ -127,21 +126,21 @@
           <div class="suite-GroceryApplication-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.ManageContactTest</span>
+              <span class="class-name">testCases.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="contactupdate">
-                  </a> <!-- contactupdate -->
-                  <span class="method-name">contactupdate</span>
+                  <a name="verifyLoginWithCredentials">
+                  </a> <!-- verifyLoginWithCredentials -->
+                  <span class="method-name">verifyLoginWithCredentials</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="resetbutton">
-                  </a> <!-- resetbutton -->
-                  <span class="method-name">resetbutton</span>
+                  <a name="verifyLoginWithInValidcredentials">
+                  </a> <!-- verifyLoginWithInValidcredentials -->
+                  <span class="method-name">verifyLoginWithInValidcredentials</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +148,7 @@
         </div> <!-- panel GroceryApplication -->
         <div panel-name="test-xml-GroceryApplication" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\NITHIN\eclipse-workspace\GroceryApplication\ProjectRun.xml</span>
+            <span class="header-content">C:\Users\NITHIN\git\GroceryProject\GroceryApplication\ProjectRun.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -162,7 +161,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;chromeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.ManageContactTest&quot;/&gt;
+      &lt;class name=&quot;testCases.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- chromeTest --&gt;
 &lt;/suite&gt; &lt;!-- GroceryApplication --&gt;
@@ -204,13 +203,13 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'resetbutton')
-data.setCell(0, 2, 'testCases.ManageContactTest')
-data.setCell(0, 3, 4309);
+data.setCell(0, 1, 'verifyLoginWithCredentials')
+data.setCell(0, 2, 'testCases.LoginPageTest')
+data.setCell(0, 3, 7072);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'contactupdate')
-data.setCell(1, 2, 'testCases.ManageContactTest')
-data.setCell(1, 3, 3786);
+data.setCell(1, 1, 'verifyLoginWithInValidcredentials')
+data.setCell(1, 2, 'testCases.LoginPageTest')
+data.setCell(1, 3, 1789);
 window.suiteTableData['GroceryApplication']= { tableData: data, tableDiv: 'times-div-GroceryApplication'}
 return data;
 }
@@ -241,30 +240,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.ManageContactTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">contactupdate</span>
-                <span class="method-start">4183 ms</span>
+                <span class="method-name">verifyLoginWithCredentials</span>
+                <span class="method-start">10623 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethode([TestResult name=contactupdate status=SUCCESS method=ManageContactTest.contactupdate()[pri:0, instan...)</span>
-                <span class="method-start">7999 ms</span>
+                <span class="method-name">afterMethode([TestResult name=verifyLoginWithCredentials status=SUCCESS method=LoginPageTest.verifyLoginWithCrede...)</span>
+                <span class="method-start">17808 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(chrome)</span>
-                <span class="method-start">8277 ms</span>
+                <span class="method-start">19307 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">resetbutton</span>
-                <span class="method-start">11451 ms</span>
+                <span class="method-name">verifyLoginWithInValidcredentials</span>
+                <span class="method-start">28852 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethode([TestResult name=resetbutton status=SUCCESS method=ManageContactTest.resetbutton()[pri:0, instance:t...)</span>
-                <span class="method-start">15762 ms</span>
+                <span class="method-name">afterMethode([TestResult name=verifyLoginWithInValidcredentials status=SUCCESS method=LoginPageTest.verifyLoginWi...)</span>
+                <span class="method-start">30649 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
